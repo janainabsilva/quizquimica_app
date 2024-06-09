@@ -28,14 +28,11 @@
 *.lnk
 *.zip
 *.mp4
-*.jpeg
-*.jpg
-*.png
+*.jpeg 
 *.pdf
 *.docx
 *.xlsx
 *.pptx
-*.html
 *.svg
 *.webp
 *.rtf
