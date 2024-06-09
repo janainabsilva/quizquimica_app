@@ -95,7 +95,7 @@ main {
 }
 
 .assuntos {
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -110,16 +110,36 @@ main {
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color);
 
 }
+
+.assuntos button div{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+
+.assuntos button img{
+    width: 100%;
+    
+}
+
 
 .botao_ma div{
     background: var(--bg-ma) ;
 }
 
+
 .botao_tp div{
     background: var(--bg-tp) ;
 }
+
+
 .botao_fi div{
     background: var(--bg-fi) ;
 }
