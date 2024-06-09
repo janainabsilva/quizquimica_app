@@ -1,0 +1,72 @@
+
+# Ignorar diretórios específicos com permissão negada
+/Ambiente de Impressão/
+/Ambiente de Rede/
+/Configurações Locais/
+/Cookies/
+/Dados de Aplicativos/
+/Menu Iniciar/
+/Meus Documentos/
+/Modelos/
+/Recent/
+/SendTo/
+/3D Objects/
+/AppData/
+/Contacts/
+/Favorites/
+/IntelGraphicsProfiles/
+/Links/
+/Saved Games/
+/Searches/
+/OneDrive/
+
+# Ignorar arquivos específicos
+*.DAT
+*.blf
+*.regtrans-ms
+*.ini
+*.lnk
+*.zip
+*.mp4
+*.jpeg
+*.jpg
+*.png
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.html
+*.svg
+*.webp
+*.rtf
+*.mp4
+*.mov
+*.txt
+
+# Ignorar diretórios e arquivos específicos
+/.android/
+/.bash_history
+/.gitconfig
+/.lesshst
+/.node_repl_history
+/.vscode/
+/.yarnrc
+/IdeaProjects/
+/inclusive care tcc/
+/inclusivecare/
+/inclusivecaree/
+/QuizQuimica_app/quizquimica_app
+/telasapp/
+/3D Objects/
+/Projectpageweb/
+/Site projeto/
+/WhatsApp_files/
+/Curso js/
+/cms_files_6588_1649109060Guia_de_Pitch_Deck___Seed.pdf
+/cms_files_6588_1649110468Guia_de_Pitch_Deck_Series_A.pdf
+
+# Ignorar arquivos temporários do sistema
+NTUSER.DAT
+NTUSER.DAT{*}
+Thumbs.db
+Desktop.ini
