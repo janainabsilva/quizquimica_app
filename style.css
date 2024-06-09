@@ -18,6 +18,7 @@
     --bg-tp: #cbfae3;
     --bg-fi: #b3dff3;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-ligth.svg);
 }
 
 body {
@@ -142,4 +143,70 @@ main {
 
 .botao_fi div{
     background: var(--bg-fi) ;
+}
+
+
+@media(min-width: 1100px){
+    body{
+        background: var(--bg-desktop) var(--bg-color);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    header{
+        margin-block: 81px;
+
+    }
+    .tema img{
+        width: 24px;
+        gap:16px;
+    }
+
+    .tema button{
+        width: 48px;
+        height: 28px;
+
+    }
+    .tema button div{
+        width: 20px;
+        height: 20px;
+    }
+
+    main{
+        display: flex;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .boas_vindas h1{
+        font-size: 60px;
+        margin-bottom: 48px;
+    }
+
+    .boas_vindas p{
+        font-size: 22px;
+    }
+
+    .assuntos{
+
+        gap: 24px;
+    }
+
+    .assuntos button{
+        font-size: 28px;
+        padding: 20px;
+        gap: 32px;
+    }
+    .assuntos button div{
+        width: 56px;
+        height: 56px;
+        padding: 8px;
+    }
+
+   
 }
