@@ -7,10 +7,11 @@
                 {
                     "question": "Qual cientista propôs o modelo atômico conhecido como modelo pudim de passas?",
                     "options": [
-                        "Hyper Trainer Marking Language",
-                        "Hyper Text Marketing Language",
-                        "Hyper Text Markup Language",
-                        "Hyper Text Markup Leveler"
+                        "Sommerfield",
+                        "Ernest Rutherford",
+                        "Niels Bohr",
+                        "John Dalton",
+                        "J.J. Thomson"
                     ],
                     "answer": "Hyper Text Markup Language"
                 },
