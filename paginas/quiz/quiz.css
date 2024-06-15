@@ -166,6 +166,26 @@ main{
     }
 }
 
+.alternativas label#correta{
+    outline: 3px solid var(--green);
+
+    & span{
+        background: var(--green);
+        color: var(--white);
+
+    }
+}
+
+.alternativas label#errado{
+    outline: 3px solid var(--red);
+
+    & span{
+        background: var(--red);
+        color: var(--white);
+
+    }
+}
+
 .alternativas input{
     display: none;
 }
@@ -206,6 +226,10 @@ main{
 
 
 @media(min-width:1100px){
+    header{
+        margin-block: 81px;
+
+    }
     .tema img{
         width: 24px;
         gap:16px;
