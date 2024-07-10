@@ -13,8 +13,6 @@
     --purple: #a729f5;
     --purple-hover:rgba(167, 41, 245, 0.8);
     --white : #ffff;
-    --green: #26d782;
-    --red: #ee5454;
     --primary-text-color: #181b20;
     --secundary-text-color: #626c7f;
     --pontuacao-bg: #fff;
@@ -134,7 +132,7 @@ main button{
     font-weight: 500;
     transition: background 0.3s;
     cursor: pointer;
-
+    box-shadow: var(--shadow);
 }
 
 main button:hover{
@@ -151,6 +149,7 @@ main button:hover{
     gap: 16px;
     border-radius: 12px;
     margin-bottom: 20px;
+    box-shadow: var(--shadow);
 }
 
 .pontuacao strong{
