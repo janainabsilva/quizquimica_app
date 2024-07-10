@@ -110,7 +110,7 @@ main {
 }
 
 main h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     color: var(--primary-text-color);
     margin-bottom: 40px;
@@ -214,6 +214,20 @@ main button:hover{
     }
 
     main h2{
-        font-size: 64px;
+        font-size: 50px;
+    }
+    
+    .pontuacao strong{
+        font-size: 144px;
+    }
+
+    .pontuacao p{
+        font-size: 24px;
+    }
+
+    main button{
+        font-size: 22px;
+        padding: 20px;
+        border-radius: 18px;
     }
 }
