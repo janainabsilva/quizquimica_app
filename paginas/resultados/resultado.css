@@ -110,7 +110,7 @@ main {
 }
 
 main h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     color: var(--primary-text-color);
     margin-bottom: 40px;
@@ -120,6 +120,26 @@ main h2 strong{
 
     font-weight: 550;
 
+}
+
+main button{
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: var(--purple);
+    color: var(--white);
+    width: 100%;
+
+    font-size: 18px;
+    font-weight: 500;
+    transition: background 0.3s;
+    cursor: pointer;
+
+}
+
+main button:hover{
+    background: var(--purple-hover);
+    cursor: pointer;
 }
 
 .pontuacao{
@@ -181,4 +201,19 @@ main h2 strong{
         height: 20px;
     }
 
+    main {
+        display: flex;
+        gap: 140px;
+        max-width: 1160px;
+        margin-inline:auto ;
+    }
+
+    main h2,
+    main > div{
+        width: 100%;
+    }
+
+    main h2{
+        font-size: 64px;
+    }
 }
